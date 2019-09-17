@@ -1,0 +1,32 @@
+.valeursimg {
+    height: 50px;
+    width : 50px
+}
+#values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center
+}
+
+
+.imgTeamMember {
+    height: 150px;
+    width: 100px;
+}
+p {
+    text-align: center
+}
+
+#teamMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+}#teamMember div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+}
