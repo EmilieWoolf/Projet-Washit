@@ -1,0 +1,189 @@
+
+
+/*Nos prestations CSS*/
+
+.container, .card1, .card2, .card3, .prestationImg, .prestLogo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+
+.card1, .card2, .card3 {
+    width: 95%;    
+   
+}
+
+h3, h2, .prestLogo p {
+    font-family: 'Lobster', cursive, arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    font-size: 8vw;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #9fe419;
+}
+
+h5 {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+.card1, .card2, .card3 {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.card-body{
+    width: 100%;
+    justify-content: center;
+    background-color:#9fe419;
+}
+
+.card-text {
+    text-align: center;  
+    margin:0;
+    font-size: calc(20px + .8vw);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+.cardimg1 {
+    width: 100%; 
+    margin: auto;
+}
+
+.cardimg1 img {
+   display: block;
+   width: 100%;
+   max-width: 500px; 
+   height: auto; 
+   margin: auto; 
+}
+
+.btn-primary { 
+  background-color:white;
+  color:#9fe419;
+  font-size: 6vw;
+  text-decoration: none;
+  padding:40px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  width:50%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  align-content: center;
+  border: 2px solid #9fe419;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+.card-title {
+    font-size: calc(30px + .8vw);
+    text-align: center;
+    margin:0;
+    padding-top: 40px;
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+ 
+    .btn-primary { 
+        background-color:white;
+        color:#9fe419;
+        font-size: 2vw;
+        text-decoration: none;
+        padding:40px;
+        display: flex;
+        border-radius: 8px;
+        justify-content: center;
+        width:50%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        align-content: center;
+        border: 2px solid #9fe419;
+        font-family: 'Dosis', sans-serif;
+      }
+    
+    }
+
+    /*Footer CSS*/
+.footer-middle-div{
+    display:flex;
+    align-items: baseline;
+}
+.footer-right i {
+    padding: 5px;
+    color: #9fe419;
+}
+.footer-middle i {
+    padding: 5px;
+}
+.footer-left a, .footer-middle a {
+    color: #9fe419;
+    text-decoration: none;
+}
+.footer-left a:hover, .footer-middle a:hover, .footer-right a i:hover {
+    color: white;
+}
+.footer-right p {
+    text-align: center;
+}
+.footer-left, .footer-right, .footer-middle {
+    width: 100%;
+}
+p.footer-links {
+    text-align: center;
+}
+.footer-left, .footer-middle, .footer-right{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    align-items: center;
+    background: #343a40;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-left, .footer-middle, .footer-right{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background: #343a40;
+        color: white;
+    }
+    
+}
