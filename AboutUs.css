@@ -4,7 +4,7 @@
 }
 #values {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     text-align: center
 }
@@ -29,4 +29,16 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items : center;
+    background: #a0e41998;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #values {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
 }
