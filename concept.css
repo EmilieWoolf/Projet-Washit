@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#muppet {
+    display: none;
+}
+
+@media only screen and (min-width: 576px) {
+    #muppet {
+        display: flex;
+        max-width: 50%;
+        height: auto;
+        margin-left: 30px
+    }
+}
