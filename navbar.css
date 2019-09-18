@@ -1,0 +1,100 @@
+/* GENERAL */
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+/* NAV */
+.nav-container{
+    width: 100%;
+    position: fixed;
+}
+.navbar{
+    
+}
+header .bg-dark {
+    background-color: rgba(35, 31, 32, 0.7)!important;
+}
+a.nav-link{
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #9fe419!important;
+}
+a.nav-link:hover{
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #fff!important;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Lobster', cursive, arial, sans-serif;
+}
+.btn-contact-us{
+    margin: 0 10px;
+    color: #fff!important;
+    border: 1px solid #fff; 
+}
+.nav-container .fa-leaf{
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn-contact-us:hover{
+    margin: 0 10px;
+    color: #fff!important;
+    border: 1px solid #9fe419;
+    background-color: #9fe419!important;
+}
+#home {
+    display: flex;
+    background-color: rgba(35, 31, 32, 0.8);
+    background : url(img/climat-tempete-tornade-1560x1041.jpg) no-repeat 100% 50%;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+#home h1, h3 {
+    color: #fff;
+}
+#home h1 {
+    font-family: 'Lobster', cursive, arial, sans-serif;
+    font-size: 80px;
+}
+#home h3 {
+    font-size: 40px;
+    font-weight: 100;
+}
+.title-container {
+   margin-top: 15%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.title-container .fa-leaf {
+    font-size: 55px;
+    color: #fff; 
+}
+.btn-header{
+    margin-top: 20px;
+    padding: 10px 20px 15px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #9fe419;
+    border: 1px solid #73a80d;
+    color: #fff;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.caption {
+    color: #9fe419;
+}

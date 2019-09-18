@@ -1,17 +1,107 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="styleCommun.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="concept.css">
   <script src="script.js"></script>
 </head>
+
 <body>
-    <h2>our concept</h2>
-<section>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tortor dui, fermentum quis gravida non, auctor eget orci. Etiam dapibus non turpis non ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla blandit, urna egestas imperdiet interdum, magna diam pretium mi, at condimentum velit est sed tortor. Aenean ut sem massa. Donec vehicula blandit ante, vitae hendrerit dolor egestas vel. Nulla tincidunt sem a dolor aliquet eleifend. Nunc feugiat, libero vel aliquam ultrices, lorem erat eleifend velit, et porttitor tellus massa id nisi. Suspendisse vel ante non lectus hendrerit aliquet et eu massa. Nulla augue velit, elementum laoreet ornare ac, eleifend sed lorem. Vivamus et felis ligula. Suspendisse efficitur imperdiet tellus viverra scelerisque. </p>
+
+  <!-- NAVBAR -->
+  <header>
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="mainpage.html">Wa<span class="caption">sh-it</span><i
+                class="fa fa-leaf"></i></a>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="mainpage.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="concept.html">concept</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prestations.html" tabindex="-1" aria-disabled="true">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html" tabindex="-1" aria-disabled="true">team</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn-contact-us btn btn-outline-success my-2 my-sm-0" type="submit">contact-us</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <h2>our concept</h2>
+  <section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tortor dui, fermentum quis gravida non, auctor
+      eget orci. Etiam dapibus non turpis non ullamcorper. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Nulla blandit, urna egestas imperdiet interdum, magna diam pretium mi, at
+      condimentum velit est sed tortor. Aenean ut sem massa. Donec vehicula blandit ante, vitae hendrerit dolor egestas
+      vel. Nulla tincidunt sem a dolor aliquet eleifend. Nunc feugiat, libero vel aliquam ultrices, lorem erat eleifend
+      velit, et porttitor tellus massa id nisi. Suspendisse vel ante non lectus hendrerit aliquet et eu massa. Nulla
+      augue velit, elementum laoreet ornare ac, eleifend sed lorem. Vivamus et felis ligula. Suspendisse efficitur
+      imperdiet tellus viverra scelerisque. </p>
     <img src="greenmuppet.jpg" id="muppet" alt="Trio of Green Muppets closing their eyes and ears to real issues">
-</section>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-left">
+          <h3>WASHIT</h3>
+          <p class="footer-links">
+              <a href="mainpage.html">Home</a>
+              •
+              <a href="concept.html">Concept</a>
+              •
+              <a href="prestations.html">Prestations</a>
+              •
+              <a href="AboutUs.html">Team</a>
+          </p>
+      </div>
+
+      <div class="footer-middle">
+          <div class="footer-middle-div">
+              <i class="fa fa-map-marker"></i>
+              <p>Lyon, FRANCE</p>
+          </div> 
+          <div class="footer-middle-div"> 
+              <i class="fa fa-phone"></i>
+              <p>+33(0)4 99 99 99 99</p>
+          </div>
+          <div class="footer-middle-div">
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:contact@washit.com">contact@washit.com</a></p>
+          </div>
+      </div>
+
+      <div class="footer-right">
+          <p>About the company</p>
+          <p>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="#"><i class="fa fa-github fa-2x"></i></a>
+          </div>
+      </div>
+  </footer>
 </body>
+
 </html>
