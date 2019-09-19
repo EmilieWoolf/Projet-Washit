@@ -5,7 +5,12 @@ html, body{
     padding: 0;
     margin: 0;
 }
-
+/* Resoud bug nav bar landing page */
+body:not(header) {margin-top : 0;
+}
+.nav-container{
+    margin-top :0;
+}
 /* HEADER */
 
 /* NAV */
