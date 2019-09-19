@@ -8,7 +8,9 @@
     justify-content: space-around;
     text-align: center
 }
-
+#descriptionteam {
+    text-align: justify
+}
 
 .imgTeamMember {
     height: 150px;
@@ -23,6 +25,7 @@ p {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    margin-bottom: 30px;
 
 }#teamMember div {
     display: flex;

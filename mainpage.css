@@ -13,7 +13,7 @@ body:not(header) {margin-top : 0;
 }
 /* HEADER */
 
-/* NAV */
+/* NAV
 .nav-container{
     width: 100%;
     position: fixed;
@@ -50,7 +50,7 @@ a.nav-link:hover{
     color: #fff!important;
     border: 1px solid #9fe419;
     background-color: #9fe419!important;
-}
+} */
 #home {
     display: flex;
     background-color: rgba(35, 31, 32, 0.8);
@@ -101,22 +101,3 @@ a.nav-link:hover{
 }
 
 
-/* Partie Team */
-.valeursimg {
-    height: 50px;
-    width : 50px
-}
-#values {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center
-}
-@media only screen and (min-width: 768px) {
-    #values {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-}

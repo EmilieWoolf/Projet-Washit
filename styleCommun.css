@@ -15,6 +15,12 @@ h2 {
     margin-top: 15 px;
     text-align: center;
     font-size: 3em;
+    font-weight: bold;
+}
+h3 {
+    font-size:2em;
+    font-weight: bold;
+    
 }
 footer h3 {
     font-family: 'Lobster', cursive, arial, sans-serif;

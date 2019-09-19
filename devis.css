@@ -7,7 +7,7 @@
 }
 #quotation-page p {
     margin: 20px;
-    text-align: center;
+    text-align: justify;
 }
 #quotation-page label{
     margin-bottom: 0;
@@ -21,6 +21,7 @@ div.quotation-form {
     flex-direction: column;
     margin-bottom: 10px;
 }
+
 
 
 /* footer */
