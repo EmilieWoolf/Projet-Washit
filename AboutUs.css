@@ -1,15 +1,16 @@
 .valeursimg {
     height: 50px;
-    width : 50px
+    width : 50px;
 }
 #values {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: center
+    text-align: center;
+    margin-bottom: 30px;
 }
 #descriptionteam {
-    text-align: justify
+    text-align: justify;
 }
 
 .imgTeamMember {
@@ -17,7 +18,7 @@
     width: 100px;
 }
 p {
-    text-align: center
+    text-align: center;
 }
 
 #teamMember {
