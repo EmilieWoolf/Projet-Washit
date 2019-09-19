@@ -2,9 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 15px;
 }
-
 form label {
     text-align: center;
     padding: 10px;
@@ -16,17 +14,11 @@ form input {
 
 form #submit {
     margin-top: 15px;
-    width: 70px;
+    margin-bottom: 15px;
 }
 
 #contactInfos {
-    text-align: center;
-    margin-top: 25px;
-    align-self: center;
-    background: #343a40;
-    color: white;
-    padding: 20px;
-    border-radius: 5%;
+    display: none;
 }
 
 section a {
@@ -37,10 +29,25 @@ section a {
 section a:hover {
     color: white;
 }
+input#submit.form-control{
+    background-color: #9fe419; 
+    border: none;
+}
 
 @media only screen and (min-width: 992px) {
     #pageContact {
         display: flex;
         justify-content: space-around;
     }
+    #contactInfos {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        align-self: center;
+        background: #343a40;
+        color: white;
+        padding: 20px;
+        border-radius: 5%; 
+    }
+
 }

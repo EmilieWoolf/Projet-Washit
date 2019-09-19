@@ -19,15 +19,6 @@ h3, h2, .prestLogo p {
     display: flex;
     justify-content: center;
 }
-
-
-h2 {
-    font-size: 8vw;
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    color: #9fe419;
-}
-
 h5 {
     color: white;
     font-family: 'Dosis', sans-serif;

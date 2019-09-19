@@ -1,7 +1,3 @@
-body {
-    background: linear-gradient(135deg, rgb(68, 202, 201, 0.6) 0%,rgb(252, 255, 114, 0.6) 100%);
-}
-
 
 /* form */
 #quotation-page {
@@ -11,7 +7,7 @@ body {
 }
 #quotation-page p {
     margin: 20px;
-    text-align: center;
+    text-align: justify;
 }
 #quotation-page label{
     margin-bottom: 0;
@@ -24,6 +20,10 @@ div.quotation-form {
     align-items: center;
     flex-direction: column;
     margin-bottom: 10px;
+}
+input.btn{
+    background-color: #9fe419; 
+    border: none;
 }
 
 
