@@ -2,16 +2,28 @@
 
 /*Nos prestations CSS*/
 
-.container, .card1, .card2, .card3, .prestationImg, .prestLogo {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    width: 100%;
+ body{  
+    background : url(https://images.pexels.com/photos/1050305/pexels-photo-1050305.jpeg) no-repeat 100% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
 }
 
+.prest-container{
+    margin: 3%;
+    
+    background-color: rgba(31, 31, 31, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .card1, .card2, .card3 {
-    width: 95%;    
+    display: flex;
+    flex-direction: column;  
+    align-content: center; 
+    margin-left: auto;
+    margin-right: auto;  
    
 }
 
@@ -19,18 +31,24 @@ h3, h2, .prestLogo p {
     display: flex;
     justify-content: center;
 }
+
+h2 {
+    font-size: 8vw;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #9fe419;
+}
+
 h5 {
+    margin: 0;
+    padding: 0;
     color: white;
     font-family: 'Dosis', sans-serif;
 }
 
-.card1, .card2, .card3 {
-    margin-left: auto;
-    margin-right:auto;
-}
-
 .card-body{
-    width: 100%;
+    width: 250px;
     justify-content: center;
     background-color:#9fe419;
 }
@@ -38,42 +56,38 @@ h5 {
 .card-text {
     text-align: center;  
     margin:0;
-    font-size: calc(20px + .8vw);
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
+    font-size: calc(15px + .8vw);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     padding-top: 40px;
     color: white;
     font-family: 'Dosis', sans-serif;
 }
 
-.cardimg1 {
-    width: 100%; 
-    margin: auto;
-}
 
-.cardimg1 img {
-   display: block;
-   width: 100%;
-   max-width: 500px; 
-   height: auto; 
-   margin: auto; 
+.prestationImg {
+    margin-top: 10%;
+   display: flex;
+align-content: center;
+  height: auto;
+  max-width: 250px;
 }
 
 .btn-primary { 
-  background-color:white;
+  background-color:rgba(31, 31, 31, 0.7);
   color:#9fe419;
   font-size: 6vw;
   text-decoration: none;
-  padding:40px;
+  padding:10px;
   display: flex;
   border-radius: 8px;
   justify-content: center;
-  width:50%;
+  width:70%;
   margin-left: auto;
   margin-right:auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   align-content: center;
   border: 2px solid #9fe419;
   font-family: 'Dosis', sans-serif;
@@ -81,41 +95,11 @@ h5 {
 
 
 .card-title {
-    font-size: calc(30px + .8vw);
+    font-size: calc(20px + .8vw);
     text-align: center;
     margin:0;
-    padding-top: 40px;
+    padding-top: 20px;
 }
-
-
-
-@media only screen and (min-width: 768px){
-
-    .container {
-        display: flex;
-        flex-direction: row;
-    }
- 
-    .btn-primary { 
-        background-color:white;
-        color:#9fe419;
-        font-size: 2vw;
-        text-decoration: none;
-        padding:40px;
-        display: flex;
-        border-radius: 8px;
-        justify-content: center;
-        width:50%;
-        margin-left: auto;
-        margin-right:auto;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        align-content: center;
-        border: 2px solid #9fe419;
-        font-family: 'Dosis', sans-serif;
-      }
-    
-    }
 
     /*Footer CSS*/
 .footer-middle-div{
@@ -175,5 +159,62 @@ footer{
         background: #343a40;
         color: white;
     }
+
+ 
+    .btn-primary { 
+        background-color:white;
+        color:#9fe419;
+        font-size: 2vw;
+        text-decoration: none;
+        padding:40px;
+        display: flex;
+        border-radius: 8px;
+        justify-content: center;
+        width:50%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        align-content: center;
+        border: 2px solid #9fe419;
+        font-family: 'Dosis', sans-serif;
+      }
     
+
+      .prest-container{
+        padding: 5%;
+        background-color: rgba(31, 31, 31, 0.7);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .card1, .card2, .card3 {
+        display: flex;
+        flex-direction: column;  
+        align-content: center; 
+        margin-left: auto;
+        margin-right: auto;  
+       
+    }
+
+    .btn-primary { 
+        background-color:rgba(31, 31, 31, 0.7);
+        color:#9fe419;
+        font-size: 3vw;
+        text-decoration: none;
+        padding:10px;
+        display: flex;
+        border-radius: 8px;
+        justify-content: center;
+        width:70%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-content: center;
+        border: 2px solid #9fe419;
+        font-family: 'Dosis', sans-serif;
+      }
 }
+
