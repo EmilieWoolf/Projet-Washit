@@ -7,16 +7,17 @@ html, body{
     margin: 0;
 }
 
-/* HEADER */
-
+/* HEADER  DECALE LE BODY SAUF LE HEADER*/ 
+body:not(header) {margin-top : 80px}
+.nav-container{
+    margin-top :-80px
+}
 /* NAV */
 .nav-container{
     width: 100%;
     position: fixed;
 }
-.navbar{
-    
-}
+
 header .bg-dark {
     background-color: rgba(35, 31, 32, 0.7)!important;
 }
