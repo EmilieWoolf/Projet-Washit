@@ -21,7 +21,10 @@ div.quotation-form {
     flex-direction: column;
     margin-bottom: 10px;
 }
-
+input.btn{
+    background-color: #9fe419; 
+    border: none;
+}
 
 /* footer */
 

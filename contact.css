@@ -15,7 +15,6 @@ form input {
 form #submit {
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 70px;
 }
 
 #contactInfos {
@@ -29,6 +28,10 @@ section a {
 
 section a:hover {
     color: white;
+}
+input#submit.form-control{
+    background-color: #9fe419; 
+    border: none;
 }
 
 @media only screen and (min-width: 992px) {
