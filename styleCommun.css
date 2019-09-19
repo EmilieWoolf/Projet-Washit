@@ -7,7 +7,7 @@ body {
     font-family: "Dosis", serif;
     width: 100%;
     height: 100%;
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 
 h2 {
@@ -18,4 +18,7 @@ h2 {
 }
 footer h3 {
     font-family: 'Lobster', cursive, arial, sans-serif;
+}
+p {
+    margin: 20px;
 }
