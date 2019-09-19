@@ -15,22 +15,29 @@ p {
     .concept {
         display: flex;
         flex-direction: row;
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     .ourConcept1 {
         width: 50%;
         align-self: center;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
     }
 
     .ourConcept2 {
         width: 50%;
-        margin-top: 0;
+        align-self: center;
+
     }
-    #muppet {
+
+    img#muppet {
+        border-radius: 10px;
         display: block;
         width: 100%;
         height: auto;
-        margin-left: 30px
+        margin-left: 30px;
     }
 }
