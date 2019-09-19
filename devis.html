@@ -5,7 +5,13 @@
   <title>Quotation</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleCommun.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="devis.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
 
@@ -13,42 +19,44 @@
 <body>
 
     <!-- header section -->
-        <header>
-                <div class="nav-container">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                          <a class="navbar-brand" href="#">Wa<span class="caption">sh-it</span><i class="fa fa-leaf"></i></a>
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                          <li class="nav-item active">
-                            <a class="nav-link" href="#">home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">concept</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">prestations</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">clients</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">team</a>
-                          </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                          <button class="btn-contact-us btn btn-outline-success my-2 my-sm-0" type="submit">contact us</button>
-                        </form>
-                      </div>
-                    </nav>
-                </div>
-            </header>
+    <header>
+      <div class="nav-container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                  aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="mainpage.html">Wa<span class="caption">sh-it</span><i
+                          class="fa fa-leaf"></i></a>
+                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="mainpage.html">home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="concept.html">concept</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="prestations.html" tabindex="-1" aria-disabled="true">services</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="AboutUs.html" tabindex="-1" aria-disabled="true">about us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="devis.html" tabindex="-1" aria-disabled="true">quote</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                      <button class="btn-contact-us btn btn-outline-success my-2 my-sm-0" type="submit" formaction="contact.html">contact us</button>
+                  </form>
+              </div>
+          </nav>
+      </div>
+  </header>
 
     <!-- Quotation section -->
     <section id="quotation-page">
-        <h2>Quotation</h2>
+        <h2>Make a quote</h2>
         <p id="quotation-text">Sed ego Atratino, humanissimo atque optimo adulescenti meo necessario, ignosco, qui habet excusationem vel pietatis vel necessitatis vel aetatis. Si voluit accusare, pietati tribuo, si iussus est, necessitati, si speravit aliquid, pueritiae. Ceteris non modo nihil ignoscendum, sed etiam acriter est resistendum. Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.</p>
             <form action="" method="get" class="quotation-form">
                 <div class="quotation-form">
@@ -108,47 +116,47 @@
 
     <!-- footer section -->
     <footer>
-        <div class="footer-left">
-            <h3>Wash-it<i class="fa fa-leaf"></i></h3>
-            <p class="footer-links">
-                <a href="#">home</a>
-                •
-                <a href="#">concept</a>
-                •
-                <a href="#">services</a>
-                •
-                <a href="#">clients</a>
-                •
-                <a href="#">team</a>
-            </p>
-        </div>
-
-        <div class="footer-middle">
-            <div class="footer-middle-div">
-                <i class="fa fa-map-marker"></i>
-                <p>Lyon, FRANCE</p>
-            </div> 
-            <div class="footer-middle-div"> 
-                <i class="fa fa-phone"></i>
-                <p>+33(0)4 99 99 99 99</p>
-            </div>
-            <div class="footer-middle-div">
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:contact@washit.com">contact@washit.com</a></p>
-            </div>
-        </div>
-
-        <div class="footer-right">
-            <p>about the company</p>
-            <p>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
-            <div class="footer-icons">
-                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                <a href="#"><i class="fa fa-github fa-2x"></i></a>
-            </div>
-        </div>
-    </footer>
+      <div class="footer-left">
+          <h3>Wash-it<i class="fa fa-leaf"></i></h3>
+          <p class="footer-links">
+              <a href="mainpage.html">home</a>
+              •
+              <a href="concept.html">concept</a>
+              •
+              <a href="prestations.html">services</a>
+              •
+              <a href="AboutUs.html">about us</a>
+              •
+              <a href="devis.html">quote</a>
+          </p>
+      </div>
+  
+      <div class="footer-middle">
+          <div class="footer-middle-div">
+              <i class="fa fa-map-marker"></i>
+              <p>Lyon, FRANCE</p>
+          </div> 
+          <div class="footer-middle-div"> 
+              <i class="fa fa-phone"></i>
+              <p>+33(0)4 99 99 99 99</p>
+          </div>
+          <div class="footer-middle-div">
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:contact@washit.com">contact@washit.com</a></p>
+          </div>
+      </div>
+  
+      <div class="footer-right">
+          <p>about the company</p>
+          <p>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="#"><i class="fa fa-github fa-2x"></i></a>
+          </div>
+      </div>
+  </footer>
 
 
 </body>

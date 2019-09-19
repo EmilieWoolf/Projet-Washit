@@ -1,4 +1,5 @@
-/* CSS Jo */
+/* GENERAL */
+
 html, body{
     height: 100%;
     width: 100%;
@@ -12,6 +13,9 @@ html, body{
 .nav-container{
     width: 100%;
     position: fixed;
+}
+.navbar{
+    
 }
 header .bg-dark {
     background-color: rgba(35, 31, 32, 0.7)!important;
@@ -49,7 +53,7 @@ a.nav-link:hover{
 #home {
     display: flex;
     background-color: rgba(35, 31, 32, 0.8);
-    background : url(climat-tempete-tornade-1560x1041.jpg) no-repeat 100% 50%;
+    background : url(img/climat-tempete-tornade-1560x1041.jpg) no-repeat 100% 50%;
     display: table;
     height: 100%;
     width: 100%;
@@ -93,25 +97,4 @@ a.nav-link:hover{
 }
 .caption {
     color: #9fe419;
-}
-
-
-/* Partie Team */
-.valeursimg {
-    height: 50px;
-    width : 50px
-}
-#values {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center
-}
-@media only screen and (min-width: 768px) {
-    #values {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
 }
