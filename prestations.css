@@ -201,7 +201,7 @@ footer{
     .btn-primary { 
         background-color:rgba(31, 31, 31, 0.7);
         color:#9fe419;
-        font-size: 3vw;
+        /* font-size: 3vw; */
         text-decoration: none;
         padding:10px;
         display: flex;
