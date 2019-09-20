@@ -27,6 +27,9 @@ section a {
     color: #9fe419;
     text-decoration: none;
 }
+#pageContact {
+    margin: 20px;
+}
 
 section a:hover {
     color: white;
