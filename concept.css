@@ -5,8 +5,11 @@
 
 p {
     text-align: justify;
+    text-justify: auto;
 }
-
+section.ourConcept1 {
+    color: rgba(255, 255, 255, 0.829);
+}
 #muppet {
     display: none;
 }

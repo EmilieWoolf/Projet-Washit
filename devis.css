@@ -8,6 +8,11 @@
 #quotation-page p {
     margin: 20px;
     text-align: justify;
+    color: rgba(255, 255, 255, 0.829);
+    text-justify: auto;
+}
+label {
+    color: rgba(255, 255, 255, 0.829);
 }
 #quotation-page label{
     margin-bottom: 0;
@@ -25,7 +30,9 @@ input.btn{
     background-color: #9fe419; 
     border: none;
 }
-
+h2 {
+    color: rgba(255, 255, 255, 0.829);
+}
 
 /* footer */
 
